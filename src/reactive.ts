@@ -1,7 +1,7 @@
 import {RAW, track, TrackOpTypes, trigger} from "./effect";
 import {isArray} from "lodash";
 import {arrayInstrumentations} from "./arrayinstructions";
-import {isObject} from "./util"
+import {isObject} from "./utils/util"
 
 export interface Target {
     [RAW]?: any;

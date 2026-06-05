@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { hasChanged } from "./util";
+import { hasChanged } from "./utils/util";
 
 describe("util", () => {
     it("正确判断普通值变化", () => {

@@ -1,7 +1,7 @@
 import {RAW, track, TrackOpTypes, trigger} from "./effect";
 import {createReactiveObject, toRaw} from "./reactive";
 import {isObject} from "lodash";
-import {hasChanged} from "./util";
+import {hasChanged} from "./utils/util";
 
 export function isRef(obj: any) {
     return obj.value

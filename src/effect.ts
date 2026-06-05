@@ -2,6 +2,7 @@ import {isArray} from "lodash";
 
 
 export const RAW = Symbol('RAW');
+
 export const ARRAY_ITERATE_KEY = Symbol('ARRAY_ITERATE_KEY');
 
 const trackStack: boolean[] = [];
